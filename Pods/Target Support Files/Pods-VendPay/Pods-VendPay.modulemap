@@ -1,0 +1,6 @@
+framework module Pods_VendPay {
+  umbrella header "Pods-VendPay-umbrella.h"
+
+  export *
+  module * { export * }
+}

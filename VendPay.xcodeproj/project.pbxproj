@@ -1,0 +1,990 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1159C7A99C4678130E3EF62B /* Pods_VendPay_VendPayUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23F5AFE5F0297C202ED108EB /* Pods_VendPay_VendPayUITests.framework */; };
+		7D1EF0DC25D16318004ED0B5 /* Money2DeviceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1EF0DB25D16318004ED0B5 /* Money2DeviceVC.swift */; };
+		7D20771D24DC00A20058D32F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D20771C24DC00A20058D32F /* AppDelegate.swift */; };
+		7D20771F24DC00A20058D32F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D20771E24DC00A20058D32F /* SceneDelegate.swift */; };
+		7D20772124DC00A20058D32F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D20772024DC00A20058D32F /* ViewController.swift */; };
+		7D20772424DC00A20058D32F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D20772224DC00A20058D32F /* Main.storyboard */; };
+		7D20772624DC00A80058D32F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D20772524DC00A80058D32F /* Assets.xcassets */; };
+		7D20772924DC00A80058D32F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D20772724DC00A80058D32F /* LaunchScreen.storyboard */; };
+		7D20773424DC00A80058D32F /* VendPayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D20773324DC00A80058D32F /* VendPayTests.swift */; };
+		7D20773F24DC00A80058D32F /* VendPayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D20773E24DC00A80058D32F /* VendPayUITests.swift */; };
+		7D20774F24DC2E840058D32F /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D20774E24DC2E840058D32F /* LoginVC.swift */; };
+		7D20775224DC2EE60058D32F /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D20774E24DC2E840058D32F /* LoginVC.swift */; };
+		7D20775324DC2EE70058D32F /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D20774E24DC2E840058D32F /* LoginVC.swift */; };
+		7D20775424DC2F080058D32F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D20772024DC00A20058D32F /* ViewController.swift */; };
+		7D20775524DC2F090058D32F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D20772024DC00A20058D32F /* ViewController.swift */; };
+		7D20775624DC2F0E0058D32F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D20771E24DC00A20058D32F /* SceneDelegate.swift */; };
+		7D20775724DC2F0F0058D32F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D20771E24DC00A20058D32F /* SceneDelegate.swift */; };
+		7D20775824DC2F130058D32F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D20771C24DC00A20058D32F /* AppDelegate.swift */; };
+		7D20775924DC2F130058D32F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D20771C24DC00A20058D32F /* AppDelegate.swift */; };
+		7D20775A24DC2F190058D32F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D20772224DC00A20058D32F /* Main.storyboard */; };
+		7D20775B24DC2F190058D32F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D20772224DC00A20058D32F /* Main.storyboard */; };
+		7D20775C24DC2F1D0058D32F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D20772524DC00A80058D32F /* Assets.xcassets */; };
+		7D20775D24DC2F1D0058D32F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D20772524DC00A80058D32F /* Assets.xcassets */; };
+		7D20775E24DC2F220058D32F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D20772724DC00A80058D32F /* LaunchScreen.storyboard */; };
+		7D20775F24DC2F230058D32F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D20772724DC00A80058D32F /* LaunchScreen.storyboard */; };
+		7D20779D24DC4C2B0058D32F /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D20779C24DC4C2B0058D32F /* RegisterVC.swift */; };
+		7D20779E24DC4C2B0058D32F /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D20779C24DC4C2B0058D32F /* RegisterVC.swift */; };
+		7D20779F24DC4C2C0058D32F /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D20779C24DC4C2B0058D32F /* RegisterVC.swift */; };
+		7D2077A124E157FB0058D32F /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2077A024E157FB0058D32F /* Helper.swift */; };
+		7D2077A524E282810058D32F /* ForgotPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2077A424E282810058D32F /* ForgotPasswordVC.swift */; };
+		7D2077A624E284C30058D32F /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2077A024E157FB0058D32F /* Helper.swift */; };
+		7D2077A724E284C30058D32F /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2077A024E157FB0058D32F /* Helper.swift */; };
+		7D2077A824E284CE0058D32F /* ForgotPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2077A424E282810058D32F /* ForgotPasswordVC.swift */; };
+		7D2077A924E284CF0058D32F /* ForgotPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2077A424E282810058D32F /* ForgotPasswordVC.swift */; };
+		7D2077AB24E28D070058D32F /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2077AA24E28D070058D32F /* HomeVC.swift */; };
+		7D2077AC24E28D070058D32F /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2077AA24E28D070058D32F /* HomeVC.swift */; };
+		7D2077AD24E28D070058D32F /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2077AA24E28D070058D32F /* HomeVC.swift */; };
+		7D2077AF24E2B9960058D32F /* ContactHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2077AE24E2B9960058D32F /* ContactHomeVC.swift */; };
+		7D2077B024E2B9960058D32F /* ContactHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2077AE24E2B9960058D32F /* ContactHomeVC.swift */; };
+		7D2077B124E2B9960058D32F /* ContactHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2077AE24E2B9960058D32F /* ContactHomeVC.swift */; };
+		7D2077B324E2C20D0058D32F /* FirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2077B224E2C20D0058D32F /* FirstVC.swift */; };
+		7D2077B424E2C20D0058D32F /* FirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2077B224E2C20D0058D32F /* FirstVC.swift */; };
+		7D2077B524E2C20D0058D32F /* FirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2077B224E2C20D0058D32F /* FirstVC.swift */; };
+		7D2077B724E3DEE90058D32F /* TransferVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2077B624E3DEE90058D32F /* TransferVC.swift */; };
+		7D2077B824E3DEE90058D32F /* TransferVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2077B624E3DEE90058D32F /* TransferVC.swift */; };
+		7D2077B924E3DEE90058D32F /* TransferVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2077B624E3DEE90058D32F /* TransferVC.swift */; };
+		7D2077BB24E3E0780058D32F /* SendVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2077BA24E3E0780058D32F /* SendVC.swift */; };
+		7D2077BC24E3E0780058D32F /* SendVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2077BA24E3E0780058D32F /* SendVC.swift */; };
+		7D2077BD24E3E0780058D32F /* SendVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2077BA24E3E0780058D32F /* SendVC.swift */; };
+		7D2077BF24E3E5F10058D32F /* ReceiveVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2077BE24E3E5F10058D32F /* ReceiveVC.swift */; };
+		7D2077C024E3E5F10058D32F /* ReceiveVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2077BE24E3E5F10058D32F /* ReceiveVC.swift */; };
+		7D2077C124E3E5F10058D32F /* ReceiveVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2077BE24E3E5F10058D32F /* ReceiveVC.swift */; };
+		7D253D212512205C0011D4AC /* bpg_extrasquare_mtavruli_2009.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7D253D202512205C0011D4AC /* bpg_extrasquare_mtavruli_2009.ttf */; };
+		7D253D7225138BD70011D4AC /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D253D7125138BD70011D4AC /* Protocols.swift */; };
+		7D253D7425139C680011D4AC /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D253D7325139C680011D4AC /* MenuVC.swift */; };
+		7D253D762514BDC00011D4AC /* AddBalanceWithCardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D253D752514BDC00011D4AC /* AddBalanceWithCardVC.swift */; };
+		7D253D782514BDD10011D4AC /* AddBalanceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D253D772514BDD10011D4AC /* AddBalanceVC.swift */; };
+		7D253D7A2514BDDB0011D4AC /* PayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D253D792514BDDB0011D4AC /* PayVC.swift */; };
+		7D3503CE252DBD3C00B506D2 /* QRScannerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3503CD252DBD3C00B506D2 /* QRScannerVC.swift */; };
+		7D6E249025F132D4008314D4 /* AccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6E248F25F132D4008314D4 /* AccountVC.swift */; };
+		7D6E249225F24769008314D4 /* EditMailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6E249125F24769008314D4 /* EditMailVC.swift */; };
+		7D6E249425F24786008314D4 /* EditPhoneVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6E249325F24786008314D4 /* EditPhoneVC.swift */; };
+		7D6E249625F247A5008314D4 /* ChangePasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6E249525F247A5008314D4 /* ChangePasswordVC.swift */; };
+		7D75CCAF2636060100A16AF5 /* ExactScannerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D75CCAE2636060100A16AF5 /* ExactScannerVC.swift */; };
+		7D80E5FF25DBD79E005B0A84 /* ContactFirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D80E5FE25DBD79E005B0A84 /* ContactFirstVC.swift */; };
+		7D80E60125DE6026005B0A84 /* TransactionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D80E60025DE6026005B0A84 /* TransactionVC.swift */; };
+		7D89CD04251BB00800E3D925 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D89CD06251BB00800E3D925 /* Localizable.strings */; };
+		7D89CD09251C088200E3D925 /* LanguageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D89CD08251C088200E3D925 /* LanguageVC.swift */; };
+		7DEB92F4265E919C00F7DDF1 /* Pods_VendPay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EA77BAE7BCCB33B80BFD51F /* Pods_VendPay.framework */; };
+		DDDC13B8B7E932E20D27B477 /* Pods_VendPayTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D2B9EB937938F8327F910B /* Pods_VendPayTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7D20773024DC00A80058D32F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D20771124DC00A20058D32F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D20771824DC00A20058D32F;
+			remoteInfo = VendPay;
+		};
+		7D20773B24DC00A80058D32F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D20771124DC00A20058D32F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D20771824DC00A20058D32F;
+			remoteInfo = VendPay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		23F5AFE5F0297C202ED108EB /* Pods_VendPay_VendPayUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VendPay_VendPayUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B55FB7EDCBB91A3A60DBDFF /* Pods-VendPay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VendPay.debug.xcconfig"; path = "Target Support Files/Pods-VendPay/Pods-VendPay.debug.xcconfig"; sourceTree = "<group>"; };
+		5A099BB45C532070E10C98D2 /* Pods-VendPayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VendPayTests.debug.xcconfig"; path = "Target Support Files/Pods-VendPayTests/Pods-VendPayTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5B58D62BAA0FE2DCC13E335E /* Pods-VendPayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VendPayTests.release.xcconfig"; path = "Target Support Files/Pods-VendPayTests/Pods-VendPayTests.release.xcconfig"; sourceTree = "<group>"; };
+		6B73783D2EBC44C949BD65D2 /* Pods-VendPay-VendPayUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VendPay-VendPayUITests.debug.xcconfig"; path = "Target Support Files/Pods-VendPay-VendPayUITests/Pods-VendPay-VendPayUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6EA77BAE7BCCB33B80BFD51F /* Pods_VendPay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VendPay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D1EF0DB25D16318004ED0B5 /* Money2DeviceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Money2DeviceVC.swift; sourceTree = "<group>"; };
+		7D20771924DC00A20058D32F /* VendPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VendPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D20771C24DC00A20058D32F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7D20771E24DC00A20058D32F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7D20772024DC00A20058D32F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7D20772324DC00A20058D32F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7D20772524DC00A80058D32F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7D20772824DC00A80058D32F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7D20772A24DC00A80058D32F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D20772F24DC00A80058D32F /* VendPayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VendPayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D20773324DC00A80058D32F /* VendPayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendPayTests.swift; sourceTree = "<group>"; };
+		7D20773524DC00A80058D32F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D20773A24DC00A80058D32F /* VendPayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VendPayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D20773E24DC00A80058D32F /* VendPayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendPayUITests.swift; sourceTree = "<group>"; };
+		7D20774024DC00A80058D32F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D20774E24DC2E840058D32F /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		7D20779C24DC4C2B0058D32F /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		7D2077A024E157FB0058D32F /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		7D2077A424E282810058D32F /* ForgotPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVC.swift; sourceTree = "<group>"; };
+		7D2077AA24E28D070058D32F /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		7D2077AE24E2B9960058D32F /* ContactHomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactHomeVC.swift; sourceTree = "<group>"; };
+		7D2077B224E2C20D0058D32F /* FirstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstVC.swift; sourceTree = "<group>"; };
+		7D2077B624E3DEE90058D32F /* TransferVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferVC.swift; sourceTree = "<group>"; };
+		7D2077BA24E3E0780058D32F /* SendVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendVC.swift; sourceTree = "<group>"; };
+		7D2077BE24E3E5F10058D32F /* ReceiveVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiveVC.swift; sourceTree = "<group>"; };
+		7D253D202512205C0011D4AC /* bpg_extrasquare_mtavruli_2009.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = bpg_extrasquare_mtavruli_2009.ttf; sourceTree = "<group>"; };
+		7D253D7125138BD70011D4AC /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		7D253D7325139C680011D4AC /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
+		7D253D752514BDC00011D4AC /* AddBalanceWithCardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBalanceWithCardVC.swift; sourceTree = "<group>"; };
+		7D253D772514BDD10011D4AC /* AddBalanceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBalanceVC.swift; sourceTree = "<group>"; };
+		7D253D792514BDDB0011D4AC /* PayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayVC.swift; sourceTree = "<group>"; };
+		7D2CC8FF265276D800DB5741 /* VendPay.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VendPay.entitlements; sourceTree = "<group>"; };
+		7D3503CD252DBD3C00B506D2 /* QRScannerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerVC.swift; sourceTree = "<group>"; };
+		7D6E248F25F132D4008314D4 /* AccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountVC.swift; sourceTree = "<group>"; };
+		7D6E249125F24769008314D4 /* EditMailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMailVC.swift; sourceTree = "<group>"; };
+		7D6E249325F24786008314D4 /* EditPhoneVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPhoneVC.swift; sourceTree = "<group>"; };
+		7D6E249525F247A5008314D4 /* ChangePasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordVC.swift; sourceTree = "<group>"; };
+		7D75CCAE2636060100A16AF5 /* ExactScannerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExactScannerVC.swift; sourceTree = "<group>"; };
+		7D80E5FE25DBD79E005B0A84 /* ContactFirstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactFirstVC.swift; sourceTree = "<group>"; };
+		7D80E60025DE6026005B0A84 /* TransactionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionVC.swift; sourceTree = "<group>"; };
+		7D89CCFF251BAF5600E3D925 /* ka */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ka; path = ka.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		7D89CD01251BAF7000E3D925 /* ka */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = ka; path = ka.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7D89CD05251BB00800E3D925 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7D89CD07251BB00E00E3D925 /* ka */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ka; path = ka.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7D89CD08251C088200E3D925 /* LanguageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageVC.swift; sourceTree = "<group>"; };
+		93A76855EBA83FC436B1CC2E /* Pods-VendPay-VendPayUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VendPay-VendPayUITests.release.xcconfig"; path = "Target Support Files/Pods-VendPay-VendPayUITests/Pods-VendPay-VendPayUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AE64F3F785F022F1B2C258E7 /* Pods-VendPay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VendPay.release.xcconfig"; path = "Target Support Files/Pods-VendPay/Pods-VendPay.release.xcconfig"; sourceTree = "<group>"; };
+		D8D2B9EB937938F8327F910B /* Pods_VendPayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VendPayTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D20771624DC00A20058D32F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DEB92F4265E919C00F7DDF1 /* Pods_VendPay.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D20772C24DC00A80058D32F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDDC13B8B7E932E20D27B477 /* Pods_VendPayTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D20773724DC00A80058D32F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1159C7A99C4678130E3EF62B /* Pods_VendPay_VendPayUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08ABBD27C57320B32A36A437 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6EA77BAE7BCCB33B80BFD51F /* Pods_VendPay.framework */,
+				23F5AFE5F0297C202ED108EB /* Pods_VendPay_VendPayUITests.framework */,
+				D8D2B9EB937938F8327F910B /* Pods_VendPayTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5D49905D11E657611C61376A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B55FB7EDCBB91A3A60DBDFF /* Pods-VendPay.debug.xcconfig */,
+				AE64F3F785F022F1B2C258E7 /* Pods-VendPay.release.xcconfig */,
+				6B73783D2EBC44C949BD65D2 /* Pods-VendPay-VendPayUITests.debug.xcconfig */,
+				93A76855EBA83FC436B1CC2E /* Pods-VendPay-VendPayUITests.release.xcconfig */,
+				5A099BB45C532070E10C98D2 /* Pods-VendPayTests.debug.xcconfig */,
+				5B58D62BAA0FE2DCC13E335E /* Pods-VendPayTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7D20771024DC00A20058D32F = {
+			isa = PBXGroup;
+			children = (
+				7D20771B24DC00A20058D32F /* VendPay */,
+				7D20773224DC00A80058D32F /* VendPayTests */,
+				7D20773D24DC00A80058D32F /* VendPayUITests */,
+				7D20771A24DC00A20058D32F /* Products */,
+				5D49905D11E657611C61376A /* Pods */,
+				08ABBD27C57320B32A36A437 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7D20771A24DC00A20058D32F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D20771924DC00A20058D32F /* VendPay.app */,
+				7D20772F24DC00A80058D32F /* VendPayTests.xctest */,
+				7D20773A24DC00A80058D32F /* VendPayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D20771B24DC00A20058D32F /* VendPay */ = {
+			isa = PBXGroup;
+			children = (
+				7D2CC8FF265276D800DB5741 /* VendPay.entitlements */,
+				7D253D6B25138A640011D4AC /* Storyboards */,
+				7D253D6A25138A350011D4AC /* Utils */,
+				7D253D6925138A200011D4AC /* Delegates */,
+				7D253D22251363370011D4AC /* Controllers */,
+				7D253D1F251220460011D4AC /* Fonts */,
+				7D20772524DC00A80058D32F /* Assets.xcassets */,
+				7D20772A24DC00A80058D32F /* Info.plist */,
+				7D89CD06251BB00800E3D925 /* Localizable.strings */,
+			);
+			path = VendPay;
+			sourceTree = "<group>";
+		};
+		7D20773224DC00A80058D32F /* VendPayTests */ = {
+			isa = PBXGroup;
+			children = (
+				7D20773324DC00A80058D32F /* VendPayTests.swift */,
+				7D20773524DC00A80058D32F /* Info.plist */,
+			);
+			path = VendPayTests;
+			sourceTree = "<group>";
+		};
+		7D20773D24DC00A80058D32F /* VendPayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7D20773E24DC00A80058D32F /* VendPayUITests.swift */,
+				7D20774024DC00A80058D32F /* Info.plist */,
+			);
+			path = VendPayUITests;
+			sourceTree = "<group>";
+		};
+		7D253D1F251220460011D4AC /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7D253D202512205C0011D4AC /* bpg_extrasquare_mtavruli_2009.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		7D253D22251363370011D4AC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7D20772024DC00A20058D32F /* ViewController.swift */,
+				7D89CD08251C088200E3D925 /* LanguageVC.swift */,
+				7D2077B224E2C20D0058D32F /* FirstVC.swift */,
+				7D80E5FE25DBD79E005B0A84 /* ContactFirstVC.swift */,
+				7D20774E24DC2E840058D32F /* LoginVC.swift */,
+				7D20779C24DC4C2B0058D32F /* RegisterVC.swift */,
+				7D2077A424E282810058D32F /* ForgotPasswordVC.swift */,
+				7D2077AA24E28D070058D32F /* HomeVC.swift */,
+				7D2077AE24E2B9960058D32F /* ContactHomeVC.swift */,
+				7D2077B624E3DEE90058D32F /* TransferVC.swift */,
+				7D2077BA24E3E0780058D32F /* SendVC.swift */,
+				7D2077BE24E3E5F10058D32F /* ReceiveVC.swift */,
+				7D253D7325139C680011D4AC /* MenuVC.swift */,
+				7D253D752514BDC00011D4AC /* AddBalanceWithCardVC.swift */,
+				7D253D772514BDD10011D4AC /* AddBalanceVC.swift */,
+				7D253D792514BDDB0011D4AC /* PayVC.swift */,
+				7D3503CD252DBD3C00B506D2 /* QRScannerVC.swift */,
+				7D1EF0DB25D16318004ED0B5 /* Money2DeviceVC.swift */,
+				7D80E60025DE6026005B0A84 /* TransactionVC.swift */,
+				7D6E248F25F132D4008314D4 /* AccountVC.swift */,
+				7D6E249125F24769008314D4 /* EditMailVC.swift */,
+				7D6E249325F24786008314D4 /* EditPhoneVC.swift */,
+				7D6E249525F247A5008314D4 /* ChangePasswordVC.swift */,
+				7D75CCAE2636060100A16AF5 /* ExactScannerVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7D253D6925138A200011D4AC /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				7D20771C24DC00A20058D32F /* AppDelegate.swift */,
+				7D20771E24DC00A20058D32F /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		7D253D6A25138A350011D4AC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				7D2077A024E157FB0058D32F /* Helper.swift */,
+				7D253D7125138BD70011D4AC /* Protocols.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		7D253D6B25138A640011D4AC /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				7D20772724DC00A80058D32F /* LaunchScreen.storyboard */,
+				7D20772224DC00A20058D32F /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D20771824DC00A20058D32F /* VendPay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D20774324DC00A80058D32F /* Build configuration list for PBXNativeTarget "VendPay" */;
+			buildPhases = (
+				9C36757644FCF5F4F5CC47C8 /* [CP] Check Pods Manifest.lock */,
+				7D20771524DC00A20058D32F /* Sources */,
+				7D20771624DC00A20058D32F /* Frameworks */,
+				7D20771724DC00A20058D32F /* Resources */,
+				7F73F0829111037C8266E685 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VendPay;
+			productName = VendPay;
+			productReference = 7D20771924DC00A20058D32F /* VendPay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7D20772E24DC00A80058D32F /* VendPayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D20774624DC00A80058D32F /* Build configuration list for PBXNativeTarget "VendPayTests" */;
+			buildPhases = (
+				0368B174FA710C56345381A9 /* [CP] Check Pods Manifest.lock */,
+				7D20772B24DC00A80058D32F /* Sources */,
+				7D20772C24DC00A80058D32F /* Frameworks */,
+				7D20772D24DC00A80058D32F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D20773124DC00A80058D32F /* PBXTargetDependency */,
+			);
+			name = VendPayTests;
+			productName = VendPayTests;
+			productReference = 7D20772F24DC00A80058D32F /* VendPayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7D20773924DC00A80058D32F /* VendPayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D20774924DC00A80058D32F /* Build configuration list for PBXNativeTarget "VendPayUITests" */;
+			buildPhases = (
+				7DA286DDBCD6952205D1784C /* [CP] Check Pods Manifest.lock */,
+				7D20773624DC00A80058D32F /* Sources */,
+				7D20773724DC00A80058D32F /* Frameworks */,
+				7D20773824DC00A80058D32F /* Resources */,
+				031D4CF8156603D813373666 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D20773C24DC00A80058D32F /* PBXTargetDependency */,
+			);
+			name = VendPayUITests;
+			productName = VendPayUITests;
+			productReference = 7D20773A24DC00A80058D32F /* VendPayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D20771124DC00A20058D32F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1250;
+				ORGANIZATIONNAME = "Ruslan Cahangirov";
+				TargetAttributes = {
+					7D20771824DC00A20058D32F = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					7D20772E24DC00A80058D32F = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 7D20771824DC00A20058D32F;
+					};
+					7D20773924DC00A80058D32F = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 7D20771824DC00A20058D32F;
+					};
+				};
+			};
+			buildConfigurationList = 7D20771424DC00A20058D32F /* Build configuration list for PBXProject "VendPay" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ka,
+			);
+			mainGroup = 7D20771024DC00A20058D32F;
+			productRefGroup = 7D20771A24DC00A20058D32F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D20771824DC00A20058D32F /* VendPay */,
+				7D20772E24DC00A80058D32F /* VendPayTests */,
+				7D20773924DC00A80058D32F /* VendPayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D20771724DC00A20058D32F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D20772924DC00A80058D32F /* LaunchScreen.storyboard in Resources */,
+				7D253D212512205C0011D4AC /* bpg_extrasquare_mtavruli_2009.ttf in Resources */,
+				7D20772624DC00A80058D32F /* Assets.xcassets in Resources */,
+				7D20772424DC00A20058D32F /* Main.storyboard in Resources */,
+				7D89CD04251BB00800E3D925 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D20772D24DC00A80058D32F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D20775F24DC2F230058D32F /* LaunchScreen.storyboard in Resources */,
+				7D20775C24DC2F1D0058D32F /* Assets.xcassets in Resources */,
+				7D20775A24DC2F190058D32F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D20773824DC00A80058D32F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D20775E24DC2F220058D32F /* LaunchScreen.storyboard in Resources */,
+				7D20775D24DC2F1D0058D32F /* Assets.xcassets in Resources */,
+				7D20775B24DC2F190058D32F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		031D4CF8156603D813373666 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VendPay-VendPayUITests/Pods-VendPay-VendPayUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VendPay-VendPayUITests/Pods-VendPay-VendPayUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VendPay-VendPayUITests/Pods-VendPay-VendPayUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0368B174FA710C56345381A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VendPayTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7DA286DDBCD6952205D1784C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VendPay-VendPayUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F73F0829111037C8266E685 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VendPay/Pods-VendPay-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VendPay/Pods-VendPay-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VendPay/Pods-VendPay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C36757644FCF5F4F5CC47C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VendPay-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D20771524DC00A20058D32F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D20774F24DC2E840058D32F /* LoginVC.swift in Sources */,
+				7D253D7425139C680011D4AC /* MenuVC.swift in Sources */,
+				7D2077BF24E3E5F10058D32F /* ReceiveVC.swift in Sources */,
+				7D20779D24DC4C2B0058D32F /* RegisterVC.swift in Sources */,
+				7D20772124DC00A20058D32F /* ViewController.swift in Sources */,
+				7D2077B724E3DEE90058D32F /* TransferVC.swift in Sources */,
+				7D2077AB24E28D070058D32F /* HomeVC.swift in Sources */,
+				7D3503CE252DBD3C00B506D2 /* QRScannerVC.swift in Sources */,
+				7D6E249025F132D4008314D4 /* AccountVC.swift in Sources */,
+				7D6E249425F24786008314D4 /* EditPhoneVC.swift in Sources */,
+				7D2077A524E282810058D32F /* ForgotPasswordVC.swift in Sources */,
+				7D253D782514BDD10011D4AC /* AddBalanceVC.swift in Sources */,
+				7D2077B324E2C20D0058D32F /* FirstVC.swift in Sources */,
+				7D80E60125DE6026005B0A84 /* TransactionVC.swift in Sources */,
+				7D6E249225F24769008314D4 /* EditMailVC.swift in Sources */,
+				7D2077AF24E2B9960058D32F /* ContactHomeVC.swift in Sources */,
+				7D1EF0DC25D16318004ED0B5 /* Money2DeviceVC.swift in Sources */,
+				7D6E249625F247A5008314D4 /* ChangePasswordVC.swift in Sources */,
+				7D2077BB24E3E0780058D32F /* SendVC.swift in Sources */,
+				7D75CCAF2636060100A16AF5 /* ExactScannerVC.swift in Sources */,
+				7D80E5FF25DBD79E005B0A84 /* ContactFirstVC.swift in Sources */,
+				7D253D762514BDC00011D4AC /* AddBalanceWithCardVC.swift in Sources */,
+				7D20771D24DC00A20058D32F /* AppDelegate.swift in Sources */,
+				7D20771F24DC00A20058D32F /* SceneDelegate.swift in Sources */,
+				7D253D7A2514BDDB0011D4AC /* PayVC.swift in Sources */,
+				7D2077A124E157FB0058D32F /* Helper.swift in Sources */,
+				7D89CD09251C088200E3D925 /* LanguageVC.swift in Sources */,
+				7D253D7225138BD70011D4AC /* Protocols.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D20772B24DC00A80058D32F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D20775424DC2F080058D32F /* ViewController.swift in Sources */,
+				7D2077A824E284CE0058D32F /* ForgotPasswordVC.swift in Sources */,
+				7D2077A624E284C30058D32F /* Helper.swift in Sources */,
+				7D20775224DC2EE60058D32F /* LoginVC.swift in Sources */,
+				7D2077C024E3E5F10058D32F /* ReceiveVC.swift in Sources */,
+				7D20773424DC00A80058D32F /* VendPayTests.swift in Sources */,
+				7D2077AC24E28D070058D32F /* HomeVC.swift in Sources */,
+				7D20779E24DC4C2B0058D32F /* RegisterVC.swift in Sources */,
+				7D2077B824E3DEE90058D32F /* TransferVC.swift in Sources */,
+				7D20775824DC2F130058D32F /* AppDelegate.swift in Sources */,
+				7D20775624DC2F0E0058D32F /* SceneDelegate.swift in Sources */,
+				7D2077B024E2B9960058D32F /* ContactHomeVC.swift in Sources */,
+				7D2077BC24E3E0780058D32F /* SendVC.swift in Sources */,
+				7D2077B424E2C20D0058D32F /* FirstVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D20773624DC00A80058D32F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D20775524DC2F090058D32F /* ViewController.swift in Sources */,
+				7D2077A924E284CF0058D32F /* ForgotPasswordVC.swift in Sources */,
+				7D2077A724E284C30058D32F /* Helper.swift in Sources */,
+				7D20775324DC2EE70058D32F /* LoginVC.swift in Sources */,
+				7D2077C124E3E5F10058D32F /* ReceiveVC.swift in Sources */,
+				7D20773F24DC00A80058D32F /* VendPayUITests.swift in Sources */,
+				7D2077AD24E28D070058D32F /* HomeVC.swift in Sources */,
+				7D20779F24DC4C2C0058D32F /* RegisterVC.swift in Sources */,
+				7D2077B924E3DEE90058D32F /* TransferVC.swift in Sources */,
+				7D20775924DC2F130058D32F /* AppDelegate.swift in Sources */,
+				7D20775724DC2F0F0058D32F /* SceneDelegate.swift in Sources */,
+				7D2077B124E2B9960058D32F /* ContactHomeVC.swift in Sources */,
+				7D2077BD24E3E0780058D32F /* SendVC.swift in Sources */,
+				7D2077B524E2C20D0058D32F /* FirstVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7D20773124DC00A80058D32F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D20771824DC00A20058D32F /* VendPay */;
+			targetProxy = 7D20773024DC00A80058D32F /* PBXContainerItemProxy */;
+		};
+		7D20773C24DC00A80058D32F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D20771824DC00A20058D32F /* VendPay */;
+			targetProxy = 7D20773B24DC00A80058D32F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7D20772224DC00A20058D32F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D20772324DC00A20058D32F /* Base */,
+				7D89CD01251BAF7000E3D925 /* ka */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7D20772724DC00A80058D32F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D20772824DC00A80058D32F /* Base */,
+				7D89CCFF251BAF5600E3D925 /* ka */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7D89CD06251BB00800E3D925 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D89CD05251BB00800E3D925 /* en */,
+				7D89CD07251BB00E00E3D925 /* ka */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D20774124DC00A80058D32F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7D20774224DC00A80058D32F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D20774424DC00A80058D32F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B55FB7EDCBB91A3A60DBDFF /* Pods-VendPay.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = VendPay/VendPay.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 6;
+				DEVELOPMENT_TEAM = VRFNTKB3BU;
+				INFOPLIST_FILE = VendPay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.5.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RuslanCahangirov.VendPay;
+				PRODUCT_NAME = VendPay;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7D20774524DC00A80058D32F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE64F3F785F022F1B2C258E7 /* Pods-VendPay.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = VendPay/VendPay.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 6;
+				DEVELOPMENT_TEAM = VRFNTKB3BU;
+				INFOPLIST_FILE = VendPay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.5.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RuslanCahangirov.VendPay;
+				PRODUCT_NAME = VendPay;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		7D20774724DC00A80058D32F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A099BB45C532070E10C98D2 /* Pods-VendPayTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UNKMU7VQ9T;
+				INFOPLIST_FILE = VendPayTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RuslanCahangirov.VendPayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VendPay.app/VendPay";
+			};
+			name = Debug;
+		};
+		7D20774824DC00A80058D32F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B58D62BAA0FE2DCC13E335E /* Pods-VendPayTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UNKMU7VQ9T;
+				INFOPLIST_FILE = VendPayTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RuslanCahangirov.VendPayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VendPay.app/VendPay";
+			};
+			name = Release;
+		};
+		7D20774A24DC00A80058D32F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B73783D2EBC44C949BD65D2 /* Pods-VendPay-VendPayUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UNKMU7VQ9T;
+				INFOPLIST_FILE = VendPayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RuslanCahangirov.VendPayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VendPay;
+			};
+			name = Debug;
+		};
+		7D20774B24DC00A80058D32F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93A76855EBA83FC436B1CC2E /* Pods-VendPay-VendPayUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UNKMU7VQ9T;
+				INFOPLIST_FILE = VendPayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RuslanCahangirov.VendPayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VendPay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D20771424DC00A20058D32F /* Build configuration list for PBXProject "VendPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D20774124DC00A80058D32F /* Debug */,
+				7D20774224DC00A80058D32F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D20774324DC00A80058D32F /* Build configuration list for PBXNativeTarget "VendPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D20774424DC00A80058D32F /* Debug */,
+				7D20774524DC00A80058D32F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D20774624DC00A80058D32F /* Build configuration list for PBXNativeTarget "VendPayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D20774724DC00A80058D32F /* Debug */,
+				7D20774824DC00A80058D32F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D20774924DC00A80058D32F /* Build configuration list for PBXNativeTarget "VendPayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D20774A24DC00A80058D32F /* Debug */,
+				7D20774B24DC00A80058D32F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D20771124DC00A20058D32F /* Project object */;
+}

@@ -1,0 +1,6 @@
+${PODS_ROOT}/Target Support Files/Pods-VendPay/Pods-VendPay-frameworks.sh
+${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework
+${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework
+${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework
+${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework
+${BUILT_PRODUCTS_DIR}/LBTATools/LBTATools.framework
